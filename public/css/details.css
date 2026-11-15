@@ -1,0 +1,152 @@
+.back-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.details-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.image-canvas {
+  width: 50%;
+  position: relative;
+  aspect-ratio: 1; /* maintains square aspect ratio */
+}
+
+.details-info {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-left: 150px;
+}
+
+.basic-link {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+}
+
+.modal-body {
+  font-weight: bold;
+}
+
+.modal-body span {
+  font-weight: initial;
+}
+
+.no-borders .list-group-item {
+  border: none;
+}
+
+.form-select,
+.custom-input {
+  text-align: start;
+  background-color: white;
+  color: black;
+  border-color: #61606036;
+  margin-bottom: 10px;
+}
+
+.custom-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.custom-input-2 {
+  padding: 0.5rem;
+  border: unset;
+  border-radius: unset;
+  font-size: smaller;
+}
+
+.tamanho,
+.price-heart,
+.shipping-warranty {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.shipping-warranty .custom-input-2 {
+  background-color: var(--bs-secondary-bg);
+  opacity: 1;
+}
+
+.add-cart {
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-size: smaller;
+}
+
+.canvas-container {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#productImageCarousel {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-3d {
+  position: absolute;
+  bottom: 20px; /* Adjust to fit your design */
+  right: 20px; /* Adjust to fit your design */
+  background-color: white;
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.btn-3d p {
+  margin: 0;
+  color: #aeaeae;
+  font-weight: bold;
+}
+
+.btn-3d img {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+}
+
+.btn-3d:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.extra-products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #aeaeae;
+  margin: 60px 0;
+  padding: 20px 2%;
+}

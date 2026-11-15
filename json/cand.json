@@ -1,0 +1,44 @@
+{
+    "general_details": {
+      "name": "Candeeiro de Mesa com Design Moderno",
+      "brand": "ZebraLighting",
+      "stock": "Em Stock",
+      "price": 199.99,
+      "original_price": 229.99
+    },
+    "category": "Luminária de Piso",
+    "discount": 13,
+    "dimensions": {
+      "length": "35 cm",
+      "width": "35 cm",
+      "height": "150 cm"
+    },
+    "weight": "5 kg",
+    "material": {
+      "lamp_shade": "Acrílico com padrão de zebra",
+      "stand": "Metal Preto (Acabamento Fosco)"
+    },
+    "color_options": [
+      "Preto e Branco",
+      "Cinza Claro"
+    ],
+    "features": [
+      "Design moderno com padrão de zebra",
+      "Base sólida para estabilidade",
+      "Lâmpada de baixo consumo energético",
+      "Ajustável para diversas posições de iluminação"
+    ],
+    "assembly_required": true,
+    "warranty": "Garantia limitada de 1 ano",
+    "shipping": "Envio gratuito para encomendas acima de $100",
+    "return_policy": "Devolução sem complicações em até 30 dias",  
+    "customer_reviews": {
+      "rating": 4.5,
+      "review_count": 85,
+      "top_review": {
+        "reviewer": "Lucas R.",
+        "review": "Excelente luminária! O design é incrível e combina perfeitamente com meu ambiente. Fácil de montar e ilumina de forma suave."
+      }
+    }
+  }
+  

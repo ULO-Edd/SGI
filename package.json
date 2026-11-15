@@ -1,0 +1,14 @@
+{
+  "name": "sgi-3d-product-viewer",
+  "private": true,
+  "description": "Interactive 3D furniture product pages built with three.js (SGI course project).",
+  "scripts": {
+    "start": "npx --yes http-server -c-1 -p 8080 ."
+  },
+  "dependencies": {
+    "three": "0.168.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.168.0"
+  }
+}

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./public/imgs/0x0.ico" />
+    <title>SGI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./public/css/styles.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="content-div">
+      <div class="nav-bar-div" id="navbar">
+        <img src="public/imgs/0x0.png" />
+        <a href="#" class="basic-nav-href1">Casa</a>
+        <a
+          href="#"
+          class="basic-nav-href1"
+          style="border-bottom-color: #ffffff00"
+          >Moda</a
+        >
+        <div class="search-container">
+          <input type="text" class="search-bar" placeholder="O que procura?" />
+        </div>
+        <a href="#"
+          ><span class="icon-text"
+            ><i class="bi bi-person"></i>Entrar / Registar</span
+          ></a
+        >
+        <a href="#"
+          ><span class="icon-text"><i class="bi bi-heart"></i></span
+        ></a>
+        <a href="#"
+          ><span class="icon-text"><i class="bi bi-cart"></i></span
+        ></a>
+      </div>
+
+      <div class="container-div">
+        <nav aria-label="breadcrumb" style="width: fit-content">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">La Redoute</a></li>
+            <li class="breadcrumb-item"><a href="#">Items</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Geral</li>
+          </ol>
+        </nav>
+
+        <h1>Geral</h1>
+
+        <div class="main">
+          <div class="side-options">
+            <p>
+              <span class="icon-text fw-bold"
+                ><i class="bi bi-chevron-left"></i>Mobilia</span
+              >
+            </p>
+            <ul class="pri-list">
+              <li class="fw-bold">Mobilia</li>
+              <ul class="sec-list">
+                <li>Mobilia de Cozinha</li>
+                <li>Mobilia de Sala/ Quarto</li>
+                <li>Candeeiros</li>
+              </ul>
+              <li>Armarios</li>
+              <li>Suportes</li>
+              <li>Gavetas</li>
+              <li>Iluminárias</li>
+              <li>Abajures</li>
+              <li>Apliques de Parede</li>
+              <li>Grinaldas</li>
+              <li>Acessórios elétricos</li>
+            </ul>
+          </div>
+
+          <div class="pages-div" id="showingMenu">
+            <div
+              class="banner"
+              style="background-image: url('./public/imgs/plp_casa.png')"
+            ></div>
+
+            <div class="filters">
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ordenar
+              </button>
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cores
+              </button>
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Preço
+              </button>
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Material
+              </button>
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Desconto
+              </button>
+              <button
+                class="btn btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Universal
+              </button>
+            </div>
+
+            <div class="menu-page container">
+              <div class="card-deck row">
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <a
+                    href="details.html?id=armario"
+                    class="model-link"
+                    data-id="armario"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="./public/imgs/armario/armario1.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body text-dark" style="padding: 0.25rem">
+                      <p class="card-text product-name"></p>
+                      <p class="current-price"></p>
+                      <p class="original-price"></p>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <a
+                    href="details.html?id=cand"
+                    class="model-link"
+                    data-id="cand"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="./public/imgs/cand/zebra_cand.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body text-dark" style="padding: 0.25rem">
+                      <p class="card-text product-name"></p>
+                      <p class="current-price"></p>
+                      <p class="original-price"></p>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+                <div
+                  class="card"
+                  style="width: 15rem; flex: none; margin: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./public/imgs/a.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body text-dark" style="padding: 0.25rem">
+                    <p class="card-text">
+                      Candeeiro de mesa BORGILLIO, da Eglo
+                    </p>
+                    <p class="card-text" style="font-size: 30px">80 €</p>
+                    <p class="card-text text-decoration-line-through">128 €</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pages">
+              <ul class="pagination">
+                <li class="arrow">
+                  <a class="page-link" href="#" aria-label="Previous"
+                    ><span aria-hidden="true"
+                      ><i class="bi bi-chevron-left"></i></span
+                  ></a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link" href="#">...</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">5</a>
+                </li>
+                <li class="arrow">
+                  <a class="page-link" href="#" aria-label="Next"
+                    ><span aria-hidden="true"
+                      ><i class="bi bi-chevron-right"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2 class="footer-logo">
+            <svg
+              width="100"
+              height="100"
+              viewBox="0 0 100 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M99.9898 35.3375V82.2289C99.9898 87.3524 95.6719 91.5078 90.4242 91.3641C85.3586 91.2235 81.393 87.0032 81.393 82.0227V35.3375C81.393 34.5899 82.0109 33.9797 82.775 33.9797H86.5516C87.3148 33.9797 87.9328 34.5867 87.9328 35.3375V82.1211C87.9328 83.5242 89.0922 84.8493 90.5203 84.9375C92.125 85.0352 93.4602 83.7821 93.4602 82.2289V35.3375C93.4602 34.5899 94.0781 33.9797 94.8414 33.9797H98.618C99.382 33.9797 100 34.5867 100 35.3375H99.9898ZM16.4352 68.2461H1.38125C0.617188 68.2461 0 68.8532 0 69.6039V73.3446C0 74.0922 0.617188 74.6992 1.38203 74.6992H5.70625V98.6422C5.70625 99.393 6.32344 100 7.08828 100H10.7352C11.4953 100 12.1164 99.393 12.1164 98.6422V74.6992H16.4414C17.2016 74.6992 17.8234 74.0922 17.8234 73.3414V69.6008C17.8234 68.8508 17.2055 68.243 16.4406 68.243L16.4344 68.2461H16.4352ZM79.6328 49.9883C79.6328 59.0196 72.1562 66.3633 62.9688 66.3633H62.75C53.5625 66.3633 46.0859 59.0164 46.0859 49.9883C46.0859 40.961 53.5625 33.6133 62.75 33.6133H62.9688C72.1594 33.6133 79.6328 40.961 79.6328 49.9883ZM73.2156 49.9883C73.2156 44.4399 68.6188 39.9196 62.9688 39.9196H62.7422C57.0961 39.9196 52.5 44.4367 52.5 49.9883C52.5 55.5407 57.0937 60.0539 62.7422 60.0539H62.9688C68.6156 60.0539 73.2156 55.5407 73.2156 49.9883ZM98.6086 93.5735H82.7711C82.0078 93.5735 81.3898 94.1805 81.3898 94.9313V98.6422C81.3898 99.393 82.0078 100 82.7711 100H98.6086C99.3719 100 99.9898 99.393 99.9898 98.6422V94.9313C99.9898 94.1805 99.3719 93.5735 98.6086 93.5735ZM1.38203 31.7344H8.90156C9.6625 31.7344 10.2836 31.1274 10.2836 30.3766V26.6657C10.2836 25.918 9.66562 25.3078 8.90156 25.3078H6.53672V1.35784C6.53672 0.607062 5.91953 3.10475e-05 5.15469 3.10475e-05H1.38125C0.61875 3.10475e-05 0 0.607062 0 1.35784V30.3797C0 31.1274 0.617188 31.7375 1.38203 31.7375V31.7344ZM87.9266 6.42347H98.6086C99.3719 6.42347 99.9898 5.81644 99.9898 5.06566V1.35784C99.9898 0.607062 99.3719 3.10475e-05 98.6086 3.10475e-05H82.7711C82.0078 3.10475e-05 81.3898 0.607062 81.3898 1.35784V30.3797C81.3898 31.1274 82.0078 31.7375 82.7711 31.7375H98.6086C99.3719 31.7375 99.9898 31.1305 99.9898 30.3797V26.6688C99.9898 25.9211 99.3719 25.311 98.6086 25.311H87.9266V19.086H98.0969C98.8609 19.086 99.4789 18.4789 99.4789 17.7282V14.0172C99.4789 13.2696 98.8609 12.6594 98.0969 12.6594H87.9266V6.42347ZM12.1203 30.0078L21.0617 0.982062C21.152 0.695768 21.3317 0.445941 21.5744 0.26921C21.8171 0.0924795 22.11 -0.00185735 22.4102 3.10475e-05H27.1633C27.4487 -0.00188672 27.7277 0.0850824 27.9615 0.248873C28.1953 0.412664 28.3723 0.645155 28.468 0.914093L38.6797 29.9219C38.9953 30.8196 38.3172 31.7563 37.3477 31.7563H33.3906C33.1053 31.7576 32.8266 31.6704 32.5929 31.5067C32.3593 31.343 32.1821 31.1108 32.0859 30.8422L30.707 26.9258C30.6086 26.652 30.4276 26.4154 30.189 26.2489C29.9504 26.0824 29.666 25.994 29.375 25.9961H21.2242C20.6031 25.9961 20.0555 26.3938 19.8758 26.9782L18.7 30.7907C18.6111 31.071 18.4348 31.3157 18.197 31.4888C17.9592 31.662 17.6723 31.7546 17.3781 31.7532H13.4328C12.5055 31.7532 11.8414 30.875 12.1102 30.0032L12.1203 30.0078ZM22.1641 19.5766H28.1234L25.3398 11.668C25.2164 11.3157 24.7055 11.3258 24.5953 11.6813L22.1641 19.5735V19.5766ZM40.6914 30.3797V1.38284C40.6914 0.635969 41.3086 0.025031 42.0734 0.025031H67.4992C73.7961 0.025031 79.2211 5.08441 79.257 11.2696C79.2805 15.5352 76.8859 19.2618 73.3453 21.2071L78.875 29.6375C79.4664 30.5391 78.8086 31.7297 77.7164 31.7297H73.2258C72.757 31.7297 72.3187 31.4953 72.0664 31.1102L66.5125 22.6469H48.6102C47.8492 22.6469 47.2281 23.2539 47.2281 24.0047V30.3789C47.2281 31.1266 46.6109 31.7367 45.8469 31.7367H42.0703C41.3094 31.7367 40.6875 31.1297 40.6875 30.3789H40.6914V30.3797ZM47.2281 16.2274H67.7484C70.7313 16.2274 73.1125 13.6297 72.6703 10.6172C72.3156 8.18909 70.0734 6.45316 67.5727 6.45316H47.2289V16.2266L47.2281 16.2274ZM0 64.643V35.3407C0 34.5907 0.617188 33.9828 1.38203 33.9828H28.0734C37.2203 33.9828 44.6305 41.4282 44.3547 50.475C44.093 59.1828 36.5891 65.9977 27.7242 65.9977H1.38281C0.617188 65.9977 0 65.3907 0 64.6399V64.643ZM6.40703 59.7016H27.8305C33.182 59.7016 37.7453 55.6219 37.9477 50.3641C38.1609 44.8383 33.65 40.2782 28.0727 40.2782H6.40781L6.40703 59.7016ZM26.482 74.686H77.8492C78.6133 74.686 79.2305 74.0789 79.2305 73.3282V69.6172C79.2305 68.8672 78.6133 68.2594 77.8492 68.2594H21.3305C20.5703 68.2594 19.9492 68.8664 19.9492 69.6172V98.6391C19.9492 99.3899 20.5664 99.9969 21.3305 99.9969H77.8492C78.6133 99.9969 79.2305 99.3899 79.2305 98.6391V94.9282C79.2305 94.1774 78.6133 93.5703 77.8492 93.5703H26.4844V87.3461H77.357C78.1203 87.3461 78.7383 86.7391 78.7383 85.9883V82.2774C78.7383 81.5266 78.1211 80.9196 77.3562 80.9196H26.4867V74.6758L26.482 74.686Z"
+                fill="#FF3F52"
+              />
+            </svg>
+          </h2>
+          <p>
+            Abrimos portas a todas as famílias, de todos lugares! Um convite
+            para experimentar o lado bom da vida.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Serviços</h3>
+          <ul>
+            <li><a href="#">Cartões Presente</a></li>
+            <li><a href="#">Crédito e Pagamento</a></li>
+            <li><a href="#">Contactos</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Assistência ao Comprador</h3>
+          <ul>
+            <li><a href="#">Siga a Encomenda</a></li>
+            <li><a href="#">Termos de Entrega</a></li>
+            <li><a href="#">Troca e Devolução de Itens</a></li>
+            <li><a href="#">Garantia</a></li>
+            <li><a href="#">Questões Frequentes</a></li>
+            <li><a href="#">Termos e Condições</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="module">
+      import { setIndexDetails } from "./public/js/modelDetails.js";
+      setIndexDetails();
+    </script>
+  </body>
+</html>

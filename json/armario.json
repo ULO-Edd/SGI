@@ -1,0 +1,44 @@
+{
+  "general_details": {
+    "name": "Armário de cozinha moderno em madeira",
+    "brand": "LuxeCraft",
+    "stock": "Em Stock",
+    "price": 299.99,
+    "original_price": 333.32
+  },
+    "category": "Armario de Cozinha",
+    "discount": 10,
+    "dimensions": {
+      "length": "48 cm",
+      "width": "50 cm",
+      "height": "75 cm"
+    },
+    "weight": "30 kg",
+    "material": {
+      "tabletop": "Madeira de Carvalho Maciço",
+      "legs": "Metal Preto (Acabamento Fosco)"
+    },
+    "color_options": [
+        "Castanho Nogueira",
+        "Carvalho Natural"
+    ],
+    "features": [
+        "Feito à mão com madeira 100% ecológica",
+        "Acabamento resistente a riscos",
+        "Tampo resistente à água",
+        "Design minimalista com bordas arredondadas"
+    ],
+    "assembly_required": true,
+    "warranty": "Garantia limitada de 2 anos",
+    "shipping": "Envio gratuito para encomendas acima de $200",
+    "return_policy": "Devolução sem complicações em até 30 dias",
+    
+    "customer_reviews": {
+      "rating": 4.8,
+      "review_count": 125,
+      "top_review": {
+        "reviewer": "Sara J.",
+        "review": "Trabalho artesanal lindíssimo! A qualidade da madeira é excepcional e foi fácil de montar. Sem dúvida, trouxe um toque acolhedor à minha sala de estar."
+      }
+    }
+  }
